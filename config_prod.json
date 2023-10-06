@@ -1,0 +1,16 @@
+{
+  "AWS_ACCOUNT_ID": "xxxxxxxxxxxxx",
+  "CLI_PROFILE": "default",
+  "REGION": "us-west-2",
+  "BUCKET": "com.sample.sample.lambdauthweb",
+  "MAX_AGE": "10",
+  "CRYPTO_BYTE_SIZE": 128,
+  "DDB_TABLE": "LambdAuthUsers",
+  "IDENTITY_POOL_NAME": "SampleAccountProd",
+  "DEVELOPER_PROVIDER_NAME": "login.sample.myapp",
+  "EXTERNAL_NAME": "Sample Service Team",
+  "EMAIL_SOURCE": "sample_service@sample.com",
+  "VERIFICATION_PAGE": "https://s3.ap-northeast-2.amazonaws.com/com.sample.sample.lambdaauthweb/verify.html",
+  "RESET_PAGE": "http://com.sample.sample.appweb.s3-website.us-west-2.amazonaws.com/password-reset",
+  "IDENTITY_POOL_ID": "us-west-2:xxxxxxxxxxxxx"
+}
